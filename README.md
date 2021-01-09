@@ -56,11 +56,15 @@ $('#table').DataTable({
     url: 'http://localhost:8080/home/dt'
   },
   columns: [
+   	  {data: 'dtindex', name: 'dtindex'}, //this is automatically generate from library where it is index of numbering data dont set this as ordering data
 	  {data: 'username', name: 'username'},
 	  {data: 'email', name: 'email'},
 	  {data: 'fullname', name: 'fullname'}
 	  {data: 'bio', name: 'bio'}
-  ]
+  ],
+  order: [
+  	['1', 'desc'] //dont set order for dtindex
+  ,
 });
 ```
 
