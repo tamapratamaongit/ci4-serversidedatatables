@@ -14,7 +14,6 @@ This library is based on igniteddatatables and laravel yajra/datatables
 * JQuery Datatables
 
 ## Installation
-Installation is best done via Composer, you may use the following command:
 
  Copy file Datatables.php to App/Libraries Folder , if you don't have these folder Just Create one. 
 
