@@ -67,9 +67,6 @@ $('#table').DataTable({
 
 ## Documentation:
 
-Now you can use this without instantiate class
-```php
-```
 
 We did not use the POST method due to a problem with the CSRF
 ```php
