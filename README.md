@@ -6,7 +6,7 @@ Server Side Datatables Library for CodeIgniter 4 Framework
 Library to make server side Datatables on CodeIgniter 4 to be **more easy**
 
 ## Disclaimer
-This library is based on igniteddatatables
+This library is based on igniteddatatables and laravel yajra/datatables
 
 ## Requirements
 * Codeigniter 4.*
@@ -53,7 +53,7 @@ $('#table').DataTable({
   processing: true,
   serverSide: true,
   ajax:{
-    url: 'http://localhost:8080/json'
+    url: 'http://localhost:8080/home/dt'
   },
   columns: [
 	  {data: 'username', name: 'username'},
